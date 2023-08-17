@@ -1,0 +1,103 @@
+/*  */
+#header{
+    height: 20%;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 32px;
+    padding: 20px;
+    border: black;
+    justify-content: center;
+    align-items: center;
+
+
+}
+br {
+    width: 500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* set display:flext to parent container */
+nav { 
+    height: 600px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+/* if hovering over elements with this class, do this css */
+.items:hover {
+    background-color: grey;
+    opacity: 0.5;
+    box-shadow : -4px 5px 4px rgba(0,0,0,.8); 
+}
+
+a {
+    /* taking 20% orf parent containers width */
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+p {
+    background-color: grey;
+    padding: 50px;
+}
+h2 {
+    background-color: grey;
+    padding: 10px;
+}
+h1 {
+    background-color: #272D33;
+    padding: 10px;
+    color: white;
+}
+.divide0 {
+    text-align: center;
+}
+.divide1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #272D33;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.fixed-width > * {
+    max-width:30em;
+    margin:0 auto;
+}
+body {
+    background-color: #272D33;
+}
+.draw1 {
+    justify-content: center;
+    align-items: center;
+
+}
+.image0{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
